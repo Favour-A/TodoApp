@@ -1,0 +1,263 @@
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    opacity: 0.3;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.left {
+    order: 1;
+}
+.middle {
+    order: 2;
+    
+}
+.right {
+    order: 3;
+}
+#headerText {
+    font-size: 2rem;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+#menuIcon {
+    font-size: 3rem;
+    color: #000;
+}
+.middle span {
+    font-size: 2rem;
+    color: #000;
+}
+#logoutIcon {
+    font-size: 1.5rem;
+    color: #000;
+}
+#logoutIcon:hover {
+    color: rgb(128, 5, 5);
+}
+#searchIcon {
+    font-size: 1.5rem;
+    color: #000;
+}
+#searchIcon:hover {
+    color: rgb(128, 5, 5);
+}
+#moreIcon {
+    font-size: 1.5rem;
+    color: #000;
+}
+#moreIcon:hover {
+    color: rgb(128, 5, 5);
+}
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 5px;
+}
+button:hover {
+    cursor: pointer;
+}
+.Hero { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.undone {
+    order: 1;
+    background-color: #888;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    margin-left: 5rem;
+}
+.undone:hover {
+    background-color: #fff;
+    color: #000;
+}
+.activeClass1  {
+    order: 1;
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    margin-left: 5rem;
+}
+.done {
+    order: 2;
+    background-color: #888;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+.done:hover {
+    background-color: #fff;
+    color: #000;
+}
+.activeClass2 {
+    order: 1;
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    
+}
+
+.all {
+    order: 3;
+    background-color: #888;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    margin-right: 16rem;
+}
+.all:hover {
+    background-color: #fff;
+    color: #000;
+}
+.activeClass3 {
+    order: 3;
+    background-color: #fff !important;
+    color: #000 !important;
+    border-radius: 20%;
+    font-size: 1.5rem;
+    font-family: 'helvetica';
+    padding: 5px 10px;
+    border: 1px solid #000;
+    margin-right: 16rem;
+}
+
+#body {
+    background-color: #fff !important;
+    margin-left: 5rem !important;
+    margin-right: 5rem !important;
+    height: fit-content;
+}
+form {
+    width: 80%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+#formContent{
+    align-items: center;
+    justify-content: center;
+    margin-left: 2rem;
+}
+#todoForm {
+    position: fixed;
+    height: 80%;
+    width: 80%;
+    top: 150px;
+    left: 0;
+    margin-left: 5rem;
+    overflow-y: auto;
+    background-color: #00000083;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    
+}
+
+#todoForm input[type=text] {
+   
+   width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border:  2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+#todoForm input[type=date] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:  2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+#todoForm input[type=time] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border:  2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+#todoForm button[type=submit] {
+    width: 20%;
+  background-color: #054e07;
+  color: white;
+  padding: 10px 15px;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#todoForm button[type=submit]:hover {
+    background-color: #45a049;
+}
+#todoForm button[type=button] {
+    width: 20%;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#todoForm button[type=button]:hover {
+    background-color: #ff4d4d;
+}
+#todoForm textarea {
+    width: 80%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+  margin: 8px 0;
+}
+
+#addTodo button {
+    background-color: blue;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 3rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10rem;
+    margin-left: 60rem;
+    
+}
